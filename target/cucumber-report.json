@@ -1,0 +1,140 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8768848699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User lands on Shop All page",
+        "description": "",
+        "id": "as-a-user-i-want-to-be-able-to-see-shop-all-page;user-lands-on-shop-all-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1464998701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15424469200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Browse to Walmart homepage",
+            "match": {
+              "location": "WalmartLogInSteps.browse_to_Walmart_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to be able to see shop all page",
+    "description": "",
+    "id": "as-a-user-i-want-to-be-able-to-see-shop-all-page",
+    "keyword": "Feature",
+    "uri": "DemoClothingShopAll.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Walmart"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6169611701,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User should be able to Login",
+        "description": "",
+        "id": "as-a-user-i-want-to-land-on-the-walmart-homepage;user-should-be-able-to-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1434305300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14514888899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Walmart homepage",
+            "match": {
+              "location": "WalmartLogInSteps.browse_to_Walmart_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@regression"
+          },
+          {
+            "line": 1,
+            "name": "@Walmart"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I want to land on the Walmart homepage",
+    "description": "",
+    "id": "as-a-user-i-want-to-land-on-the-walmart-homepage",
+    "keyword": "Feature",
+    "uri": "DemoWalmartLogIn.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Walmart"
+      },
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
