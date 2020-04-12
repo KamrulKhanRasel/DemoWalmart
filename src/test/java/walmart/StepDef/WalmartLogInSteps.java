@@ -24,6 +24,7 @@ public class WalmartLogInSteps {
 
 	@Then("^Verify login$")
 	public void verify_login() throws Throwable {
+		WalmartlogInActionsObj.SignIn();
 		System.out.println("Ami Finally Bujechi Rasel Bhai");
 	}
 
